@@ -1,0 +1,18 @@
+#this is a Python programme about the financial position of a company
+
+name=input ("What is your name?")
+print ("Hello " + name)
+
+sales=input ("Please insert the amount of sales: ")
+cost_of_sales=input("How much money did you spend to purchase these products? ")
+gross_profit=int(sales)-int(cost_of_sales)
+
+
+print ("With sales worth of "+sales+" Euro"+ " and Cost Of Goods Sold (COGS) "+cost_of_sales+" Euro"+ " your Gross Profit is "+ str(gross_profit)+" Euro")
+
+#Gross margin--->The higher the percentage, the more the company retains on each dollar of sales, to service its other costs and debt obligations.
+
+gross_margin= int(gross_profit)/int(sales)
+
+print (name+" your Gross Margin is equal to "+str(gross_margin) + " or " + str(gross_margin*100)+"%")
+
